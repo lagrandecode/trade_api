@@ -7,4 +7,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('authentication.urls')),
     path('auth/', include('djoser.urls.jwt')),
-]//
+]
